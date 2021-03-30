@@ -306,7 +306,12 @@ li {
       left: 43%;
     }
     .checkbtn{
+        margin-top: 3px;
         display: block;
+    }
+    .checkbtn:hover{
+        background-color:rgba(219, 77, 188, 0.5);
+        transition: all 0.5s;
     }
     #check:checked ~ ul{
         left: 0;
@@ -387,7 +392,7 @@ li {
         float: left;
         color: whitesmoke;
         position: absolute;
-        left: 33%;
+        left: 30%;
         font-size: x-large;
         margin-top: 30px;
     }
