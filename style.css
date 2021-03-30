@@ -332,12 +332,8 @@ li {
         line-height: 50px;
         font-size: 20px;
         background-color: rgb(134, 7, 107);
-    } */
-     nav ul li a:hover{
-        background-color: rgb(42, 197, 218);
-        color: rgb(10, 238, 219); 
-    }
-    
+    } 
+   
    
     .top-wrapper p {
         opacity: 0.7;
@@ -375,6 +371,18 @@ li {
     nav{
         position: relative;
     }
+    nav ul li{
+    width: 100%;
+       height: 100px;
+       display: block;
+       margin: 10px -27px;
+   }
+    nav ul li a {
+       width: 100%;
+       line-height: 50px;
+       font-size: 20px;
+       background-color: rgb(134, 7, 107);
+    }
     .header-bar h1{
         float: left;
         color: whitesmoke;
@@ -384,8 +392,8 @@ li {
         margin-top: 30px;
     }
     .header-bar img{
-        width: 100px;
-        height: 80px;
+        width: 90px;
+        height: 70px;
         size: 50%;
         margin-top: 7.5px;
         margin-left: -150px;
@@ -396,6 +404,10 @@ li {
     .btn {
         width: 100%;
         margin-bottom: 10px;
+    }
+    .checkbtn{
+        margin-top: 4.5px;
+        margin-right: 4px;
     }
     .top-wrapper{
         height: 600px;
@@ -420,7 +432,7 @@ li {
         margin-top: 10px;
         margin-left: 20px;
         position: absolute;
-        left: 25%;
+        left: 5%;
     }
     .daun {
         float: left;
@@ -442,8 +454,10 @@ li {
     }
     .footer-list {
         float: right;
+        font-size: smaller;
         position: absolute;
-        right: 25%;
+        right: 24%;
+        top: 4px;
     }
     .logo-footer {
         height: 75px;
@@ -451,7 +465,7 @@ li {
         margin-top: 10px;
         margin-left: 20px;
         position: absolute;
-        left: 20%;
+        left: 18%;
     }
   }
 }
